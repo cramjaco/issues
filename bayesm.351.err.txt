@@ -1,0 +1,28 @@
+No numpy version specified in conda_build_config.yaml.  Falling back to default numpy value of 1.11
+WARNING:conda_build.metadata:No numpy version specified in conda_build_config.yaml.  Falling back to default numpy value of 1.11
+INFO:conda_build.variants:Adding in variants from internal_defaults
+INFO:conda_build.variants:Adding in variants from config.variant
+INFO:conda_build.metadata:Attempting to finalize metadata for r-bayesm
+* installing to library ‘/home/ohnoplus/miniconda3/envs/dada2ab3/conda-bld/r-bayesm_1541209616478/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/lib/R/library’
+* installing *source* package ‘bayesm’ ...
+** package ‘bayesm’ successfully unpacked and MD5 sums checked
+** libs
+installing to /home/ohnoplus/miniconda3/envs/dada2ab3/conda-bld/r-bayesm_1541209616478/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/lib/R/library/bayesm/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* creating tarball
+packaged installation of ‘bayesm’ as ‘bayesm_3.1-0.1_R_x86_64-conda_cos6-linux-gnu.tar.gz’
+* DONE (bayesm)
+INFO:conda_build.build:Packaging r-bayesm
+INFO:conda_build.build:Packaging r-bayesm-3.1_0.1-r351h29659fb_0
+Importing conda-verify failed.  Please be sure to test your packages.  conda install conda-verify to make this message go away.
+WARNING:conda_build.build:Importing conda-verify failed.  Please be sure to test your packages.  conda install conda-verify to make this message go away.
++ /home/ohnoplus/miniconda3/envs/dada2ab3/conda-bld/r-bayesm_1541209616478/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/bin/R -e 'library('\''bayesm'\'')'
++ exit 0

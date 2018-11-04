@@ -1,0 +1,6 @@
+conda create -n test04 conda-build
+source activate test04
+conda skeleton cran r-bayesm
+
+conda build --R 3.4.1 r-bayesm > bayesm.341.out.txt 2> bayesm.341.err.txt
+conda build --R 3.5.1 r-bayesm > bayesm.351.out.txt 2> bayesm.351.err.txt
